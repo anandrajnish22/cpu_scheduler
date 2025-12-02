@@ -1,16 +1,3 @@
-"""
-cpu_scheduler_gui.py
-A simple Tkinter GUI for the CPU Scheduling Simulator.
-Supports: FCFS, SJF (non-preemptive), SRTF (preemptive), Round Robin, Priority (non-preemptive).
-Features:
-- Add processes (arrival, burst, priority)
-- Choose algorithm and quantum (for RR)
-- Run and display textual metrics and a visual Gantt chart
-- Export results to a text file
-
-Save as `cpu_scheduler_gui.py` and run with `python cpu_scheduler_gui.py` (Python 3.x).
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from collections import deque
